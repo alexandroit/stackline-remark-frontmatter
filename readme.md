@@ -1,3 +1,19 @@
+# @stackline/remark-frontmatter
+
+Independent maintenance fork of `remark-frontmatter@4.0.1`, preserving its API and published type declarations.
+
+```sh
+npm install @stackline/remark-frontmatter
+# Keep existing imports:
+npm install remark-frontmatter@npm:@stackline/remark-frontmatter@1.0.0
+```
+
+[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-frontmatter/issues) · [Community](https://www.reddit.com/r/Stackline/)
+
+See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+
+## Upstream documentation
+
 # remark-frontmatter
 
 [![Build][build-badge]][build]

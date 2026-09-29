@@ -1,0 +1,20 @@
+{
+  "upstream": "remark-frontmatter",
+  "fork": "@stackline/remark-frontmatter",
+  "repository": "alexandroit/stackline-remark-frontmatter",
+  "upstreamRepository": "remarkjs/remark-frontmatter",
+  "upstreamVersion": "4.0.1",
+  "sourceCommit": "bb147f9b6a67198a9579735a6e8b2dcd3103a61d",
+  "upstreamIntegrity": "sha512-38fJrB0KnmD3E33a5jZC/5+gGAC2WKNiPw1/fdXJvijBlhA7RCsvJklrYJakS0HedninvaCYW8lQGf9C918GfA==",
+  "status": "source-ready",
+  "files": {
+    "license": "d8fc337aaf98fc7a0f5498edc18b47a9df8cdfcc1a0f013519105905722c7a4c",
+    "index.js": "5a33a23f6d7d72cef9800422e9159506b5d4ea133b279c80f6bc930fb221d16f",
+    "package.json": "3c7d2745d8ff04df2d29751a53366ac8800c924b16d23ded5d9c387a7b406c0e",
+    "readme.md": "becbae7526fdfb1eba3666a7d8aa6cd506124bfd4c2fae6d65d66de30b2c023f",
+    "index.d.ts": "0c0ad11991c2556f9c0e3074cc2f9bd04bd704f546b40363aec12c3fa5d5e41c"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test/index.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
