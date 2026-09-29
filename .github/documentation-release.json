@@ -4,7 +4,7 @@
     {
       "name": "@stackline/remark-frontmatter",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -25,8 +25,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/remark-frontmatter/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/remark-frontmatter/-/remark-frontmatter-1.0.0.tgz",
       "baselineIntegrity": "sha512-m2qFIYXqEcsEzmPdQ90spGMfBy64goaC0lkqXMIvIGeGB5MU+FQHZRtWjS5qnxN0grFbvWlXVC09rvDnkFWC6Q==",
-      "expectedSha512": "35904ba5b9d76fa6854c480c7cf1c7cbff70f5a2cea6ea177e530703ff5c0a8dcd24915ca6508fadcf89d5b873002eb016859691b058a3bee040da4e2cb4fe0e",
-      "tag": "docs-stackline-remark-frontmatter-v1.0.1"
+      "expectedSha512": "64ca9b9a1475bdc5e788ef0bbd192f237fa78b42818481ab847b53332045ad721fea91a653886e0768f3c174fd9ab62ce33623d6ab9ebc185f7c647610be1d59",
+      "tag": "docs-stackline-remark-frontmatter-v1.0.2"
     }
   ]
 }
