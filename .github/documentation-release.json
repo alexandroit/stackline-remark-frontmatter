@@ -1,0 +1,32 @@
+{
+  "repository": "alexandroit/stackline-remark-frontmatter",
+  "packages": [
+    {
+      "name": "@stackline/remark-frontmatter",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "remark-frontmatter",
+        "typescript",
+        "unified",
+        "remark",
+        "remark-plugin",
+        "plugin",
+        "mdast",
+        "markdown",
+        "frontmatter",
+        "yaml",
+        "toml",
+        "maintenance-fork"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/remark-frontmatter/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/remark-frontmatter/-/remark-frontmatter-1.0.0.tgz",
+      "baselineIntegrity": "sha512-m2qFIYXqEcsEzmPdQ90spGMfBy64goaC0lkqXMIvIGeGB5MU+FQHZRtWjS5qnxN0grFbvWlXVC09rvDnkFWC6Q==",
+      "expectedSha512": "35904ba5b9d76fa6854c480c7cf1c7cbff70f5a2cea6ea177e530703ff5c0a8dcd24915ca6508fadcf89d5b873002eb016859691b058a3bee040da4e2cb4fe0e",
+      "tag": "docs-stackline-remark-frontmatter-v1.0.1"
+    }
+  ]
+}
