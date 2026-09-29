@@ -1,28 +1,52 @@
 # @stackline/remark-frontmatter
 
-Independent maintenance fork of `remark-frontmatter@4.0.1`, preserving its API and published type declarations.
+> remark plugin to support frontmatter (yaml, toml, and more).
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/remark-frontmatter.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/remark-frontmatter)
+[![license](https://img.shields.io/npm/l/@stackline/remark-frontmatter.svg?style=flat-square)](https://github.com/alexandroit/stackline-remark-frontmatter)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-remark-frontmatter-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-remark-frontmatter)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/remark-frontmatter/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/remark-frontmatter/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-frontmatter)** | **[Issues](https://github.com/alexandroit/stackline-remark-frontmatter/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-frontmatter)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/remark-frontmatter` is the Stackline-maintained distribution of `remark-frontmatter@4.0.1`. It is an independent continuation of [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/remark-frontmatter@1.0.1` |
+| API target | `remark-frontmatter@4.0.1` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `unified, @types/mdast, mdast-util-frontmatter, micromark-extension-frontmatter` |
+
+## Installation
+
+```bash
 npm install @stackline/remark-frontmatter
-# Keep existing imports:
-npm install remark-frontmatter@npm:@stackline/remark-frontmatter@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-remark-frontmatter/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install remark-frontmatter@npm:@stackline/remark-frontmatter
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# remark-frontmatter
+### remark-frontmatter
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Size][size-badge]][size]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [**remark**][remark] plugin to support frontmatter (YAML, TOML, and more).
 
@@ -76,7 +100,7 @@ This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908
 In Node.js (12.20+, 14.14+, 16.0+), install with [npm][]:
 
 ```sh
-npm install remark-frontmatter
+npm install @stackline/remark-frontmatter
 ```
 
 In Deno with [Skypack][]:
@@ -111,7 +135,7 @@ And our module, `example.js`, looks as follows:
 import {read} from 'to-vfile'
 import {unified} from 'unified'
 import remarkParse from 'remark-parse'
-import remarkFrontmatter from 'remark-frontmatter'
+import remarkFrontmatter from '@stackline/remark-frontmatter'
 import remarkStringify from 'remark-stringify'
 
 main()
@@ -326,7 +350,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/remarkjs/remark-frontmatter/workflows/main/badge.svg
 
@@ -383,3 +407,24 @@ abide by its terms.
 [hast]: https://github.com/syntax-tree/hast
 
 [create-plugin]: https://unifiedjs.com/learn/guide/create-a-plugin/
+
+## Credits and original authors
+
+- Original project: [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter).
+- Titus Wormer.
+- Lars Trieloff.
+- Max Kueng.
+- Copyright (c) 2017 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
