@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/remark-frontmatter/)** | **[npm](https://www.npmjs.com/package/@stackline/remark-frontmatter)** | **[Issues](https://github.com/alexandroit/stackline-remark-frontmatter/issues)** | **[Repository](https://github.com/alexandroit/stackline-remark-frontmatter)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/remark-frontmatter@1.0.2` |
+| Package | `@stackline/remark-frontmatter@1.0.3` |
 | API target | `remark-frontmatter@4.0.1` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
